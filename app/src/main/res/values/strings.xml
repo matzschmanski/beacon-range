@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">BeaconRange</string>
-    <string name="title_activity_monitoring">MonitoringActivity</string>
-    <string name="title_activity_ranging">RangingActivity</string>
+
+    <string name="app_name">BeaconReference</string>
+    <string name="title_activity_monitoring">title_activity_monitoring</string>
+    <string name="title_activity_ranging">title_activity_ranging</string>
+
 </resources>

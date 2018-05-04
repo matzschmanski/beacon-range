@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".BeaconReferenceApplication">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,20 +19,20 @@
         <activity
             android:name=".MonitoringActivity"
             android:label="@string/title_activity_monitoring"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:parentActivityName=".BeaconReferenceApplication">
+            <!--android:theme="@style/AppTheme.NoActionBar">-->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="arvato.de.beaconrange.MainActivity" />
+                android:value="arvato.de.beaconrange.BeaconReferenceApplication" />
         </activity>
         <activity
             android:name=".RangingActivity"
             android:label="@string/title_activity_ranging"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:parentActivityName=".BeaconReferenceApplication">
+            <!--android:theme="@style/AppTheme.NoActionBar">-->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="arvato.de.beaconrange.MainActivity" />
+                android:value="arvato.de.beaconrange.BeaconReferenceApplication" />
         </activity>
     </application>
     <uses-permission android:name="android.permission.INTERNET"/>
